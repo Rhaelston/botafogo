@@ -2,7 +2,7 @@ import fotodela from "../assets/Design sem nome (1).png"
 
 export const Contato = () => {
   return (
-    <div className="bg-purple-700 min-h-screen py-8">
+    <div className="bg-purple-700 min-h-screen">
         <nav className="bg-blue-600 p-4 text-white">
           <div className="container mx-auto flex justify-between items-center">
             <a href="/" className="text-2xl font-bold">Julia</a>
@@ -10,6 +10,7 @@ export const Contato = () => {
               <li><a href="/" className="hover:text-blue-200">Início</a></li>
               <li><a href="/sobre" className="hover:text-blue-200">Sobre</a></li>
               <li><a href="/contato" className="hover:text-blue-200">Contato</a></li>
+              <li><a href="/flor" className="hover:text-blue-200">Flor</a></li>
             </ul>
           </div>
         </nav>

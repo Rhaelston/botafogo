@@ -14,6 +14,7 @@ function App() {
               <li><a href="/" className="hover:text-blue-200">Início</a></li>
               <li><a href="/sobre" className="hover:text-blue-200">Sobre</a></li>
               <li><a href="/contato" className="hover:text-blue-200">Contato</a></li>
+              <li><a href="/flor" className="hover:text-blue-200">Flor</a></li>
             </ul>
           </div>
         </nav>
