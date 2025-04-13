@@ -3,7 +3,7 @@ import Countdown, { CountdownRenderProps } from 'react-countdown';
 
 export const TimerFlor: React.FC = () => {
   // Defina a data de contagem regressiva para 12 de outubro de 2031, às 18:00
-  const targetDate = new Date('2031-10-12T18:00:00');
+  const targetDate = new Date('2027-04-12T18:00:00');
 
   // Renderer para exibir o timer
   const renderer = ({ days, hours, minutes, seconds, completed }: CountdownRenderProps) => {
